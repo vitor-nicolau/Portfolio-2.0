@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
+
+[class*="col-"] {
+  padding: 1rem;
+}
+
+.header {
+  background: -webkit-gradient(linear, left top, left bottom, from(#222), to(#444));
+  background: linear-gradient(180deg, #222, #444);
+  color: #fff;
+  height: 93vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-title {
+  font-size: 5rem;
+}
+
+.header-p {
+  font-size: 2rem;
+  color: #048edf;
+}
+
+.navbar {
+  background-color: #222 !important;
+}
+
+.navbar-brand {
+  font-size: 1.7rem;
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-right: 2rem;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+}
+
+.navbar .nav-link:hover {
+  color: #048edf !important;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+}
+
+.profile-pic {
+  max-width: 20rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
+  background-color: #222;
+}
+
+.about-section {
+  font-size: 1.2rem;
+  margin-top: 4rem;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+  text-decoration: underline;
+}
+
+.about-section .link-icons {
+  padding: 1rem 0;
+  border-top: 3px solid #222;
+  margin-top: 2rem;
+  width: 14rem;
+}
+
+.about-section .link-icons i {
+  font-size: 2rem;
+  margin-right: 1rem;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+}
+
+.about-section .link-icons i:hover {
+  opacity: 0.8;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.about-section .link-icons .fa-instagram {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.about-section .link-icons .fa-github {
+  color: #222;
+}
+
+.about-section .link-icons .fa-twitter {
+  color: #00aced;
+}
+
+#portfolio {
+  background-color: #222;
+}
+
+#portfolio h1 {
+  color: #fff;
+  margin-top: 5rem;
+}
+
+.card {
+  border-radius: 1rem;
+  border: 1px solid #222;
+}
+
+.card-section {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-body {
+  background-color: #d3d3d3;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.card-img-top {
+  max-height: 20rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.card .btn {
+  background: #048edf;
+  border: none;
+  border-radius: 1rem;
+  color: #fff;
+  width: 10rem;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+}
+
+.card .btn:hover {
+  opacity: 0.7;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.whole-card {
+  max-width: 25rem;
+  text-align: center;
+}
+
+.projects-hr {
+  border: 1px solid #666;
+  width: 60%;
+}
+
+#contact h1 {
+  margin: 3rem 0;
+}
+
+.social a {
+  font-size: 4.5em;
+  padding: 3rem;
+}
+
+.fa-github {
+  color: #222;
+}
+
+.fa-instagram {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+
+.fa-at {
+  color: #fb4636;
+}
+
+.fa-github:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-at:hover {
+  opacity: 0.7;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+footer {
+  color: #222;
+  padding-top: 2rem;
+}
+
+@media (max-width: 576px) {
+  .header-title {
+    font-size: 3.4rem;
+  }
+  .header-p {
+    font-size: 1.6rem;
+  }
+  .about-section {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .about-section p {
+    padding: 1rem;
+  }
+  .about-section .profile-pic {
+    max-width: 12rem;
+    margin-top: 0;
+  }
+  .about-section .link-icons {
+    margin: 2rem auto 0 auto;
+  }
+  .about-section .link-icons i {
+    font-size: 2.5rem;
+  }
+  .social a {
+    font-size: 4em;
+    padding: 3rem;
+  }
+  #contact h1 {
+    margin: 2rem 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */

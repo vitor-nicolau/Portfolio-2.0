@@ -1,0 +1,39 @@
+.header {
+    background: linear-gradient(180deg, #222, #444);
+    color: #fff;
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-title {
+        font-size: 5rem;
+    }
+
+    &-p {
+        font-size: 2rem;
+        color: #048edf;
+    }
+}
+
+.navbar {
+    background-color: #222 !important;
+
+    &-brand {
+        font-size: 1.7rem;
+    }
+
+    .nav-link {
+        color: #fff !important;
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-right: 2rem;
+        transition: 200ms ease-in-out;
+
+        &:hover {
+            color: #048edf !important;
+            transition: 200ms ease-in-out;
+        }
+    }
+}

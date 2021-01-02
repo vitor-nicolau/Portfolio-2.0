@@ -1,0 +1,54 @@
+.profile-pic {
+    max-width: 20rem;
+    margin: 0 auto;
+    margin-top: 4rem;
+    border-radius: 50%;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
+    background-color: #222;
+}
+
+.about-section {
+    font-size: 1.2rem;
+    margin-top: 4rem;
+
+    h2 {
+        font-size: 2.5rem;
+        padding-bottom: 1rem;
+        text-decoration: underline;
+    }
+
+    .link-icons {
+        padding: 1rem 0;
+        border-top: 3px solid #222;
+        margin-top: 2rem;
+        width: 14rem;
+
+        i {
+            font-size: 2rem;
+            margin-right: 1rem;
+            transition: 200ms ease-in-out;
+        }
+
+        i:hover {
+            opacity: 0.8;
+            transition: 200ms ease-in-out;
+            transform: scale(1.2);
+        }
+
+        .fa-instagram {
+            color: transparent;
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            background-clip: text;
+            -webkit-background-clip: text;
+        }
+
+        .fa-github {
+            color: #222;
+        }
+
+        .fa-twitter {
+            color: #00aced;
+        }
+    }
+}

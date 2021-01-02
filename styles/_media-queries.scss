@@ -1,0 +1,51 @@
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {
+
+    .header {
+        &-title {
+            font-size: 3.4rem;
+        }
+
+        &-p {
+            font-size: 1.6rem;
+        }
+    }
+
+    .about-section {
+        margin-top: 2rem;
+        text-align: center;
+
+        p {
+            padding: 1rem;
+        }
+
+        .profile-pic {
+            max-width: 12rem;
+            margin-top: 0;
+        }
+
+        .link-icons {
+            margin: 2rem auto 0 auto;
+
+            i {
+                font-size: 2.5rem;
+            }
+        }
+    }
+
+    .social {
+        a {
+            font-size: 4em;
+            padding: 3rem;
+        }
+    }
+
+    #contact {
+        h1 {
+            margin: 2rem 0;
+        }
+    }
+}

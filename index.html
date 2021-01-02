@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>Vitor - Web Developer Portfolio</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/29756fbb00.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">VitorDev</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobileNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="mobileNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="text-center header">
+        <h1 class="display-4 header-title">Hi, I'm Vitor.</h1>
+        <p class="lead header-p"><em>Front End Developer</em></p>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-lg-6 text-center about-section">
+                <img class="profile-pic" src="images/profile.jpg" alt="profile">
+            </div>
+            <div class="col-lg-6 padding about-section">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis minus veniam amet harum dicta
+                    vel inventore possimus in, voluptate, adipisci veritatis officiis eius iure voluptatum error,
+                    praesentium ea. Soluta eligendi, laboriosam esse recusandae amet aliquam perferendis minus
+                    distinctio quod consequatur? Quam cum recusandae fuga. Aliquid quaerat dolorum voluptatibus pariatur
+                    impedit?
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis minima corrupti placeat vitae
+                    accusantium ut recusandae, debitis at? Consectetur, magni.</p>
+                <div class="col-lg-6 link-icons">
+                    <a href="https://www.instagram.com/vitor.webdev/" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/vitor-nicolau" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+        <div class="container-fluid padding">
+            <div class="row section text-center">
+                <div class="col-12">
+                    <h1 class="display-4">My Projects</h1>
+                </div>
+                <hr class="my-4 projects-hr">
+            </div>
+        </div>
+        <div class="container-fluid padding">
+            <div class="row padding card-section">
+                <div class="col-md-4 whole-card">
+                    <div class="card">
+                        <img src="images/squeakyclean.jpg" alt="project" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Squeaky Clean</h4>
+                            <p class="card-text">HTML5</p>
+                            <p class="card-text">CSS3 / SASS</p>
+                            <p class="card-text">Bootstrap</p>
+                            <a href="https://squeakyclean.netlify.app/" target="_blank"
+                                class="btn btn-outline-secondary">Preview</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 whole-card">
+                    <div class="card">
+                        <img src="images/bestinstincts.jpg" alt="project" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Best Instincts</h4>
+                            <p class="card-text">HTML5</p>
+                            <p class="card-text">CSS3</p>
+                            <p class="card-text">Bootstrap</p>
+                            <a href="https://clientwebsite-bi.netlify.app/" target="_blank"
+                                class="btn btn-outline-secondary">Preview</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 whole-card">
+                    <div class="card">
+                        <img src="images/tinder4dogs.jpg" alt="project" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Tinder 4 Dogs</h4>
+                            <p class="card-text">HTML5</p>
+                            <p class="card-text">CSS3</p>
+                            <p class="card-text">Bootstrap</p>
+                            <a href="https://tinder4dogs.netlify.app/" target="_blank"
+                                class="btn btn-outline-secondary">Preview</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 whole-card">
+                    <div class="card">
+                        <img src="images/newsletter.jpg" alt="project" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Newsletter</h4>
+                            <p class="card-text">HTML5</p>
+                            <p class="card-text">Node.js</p>
+                            <p class="card-text">Express.js</p>
+                            <a href="https://fast-lowlands-30021.herokuapp.com/" target="_blank"
+                                class="btn btn-outline-secondary">Preview</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 whole-card">
+                    <div class="card">
+                        <img src="images/dicegame.jpg" alt="project" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Dice Game</h4>
+                            <p class="card-text">HTML5</p>
+                            <p class="card-text">CSS3</p>
+                            <p class="card-text">JavaScript</p>
+                            <a href="https://dicevsdice.netlify.app/" target="_blank"
+                                class="btn btn-outline-secondary">Preview</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-12">
+                <h1 class="display-4">Contact Me</h1>
+            </div>
+            <div class="col-12 social padding">
+                <a href="https://github.com/vitor-nicolau" target="_blank"><i class="fab fa-github"
+                        title="GitHub"></i></a>
+                <a href="mailto:vitor.webdeveloper@gmail.com" target="_blank"><i class="fas fa-at"
+                        title="Email"></i></a>
+                <a href="https://www.instagram.com/vitor.webdev/" target="_blank"><i class="fab fa-instagram"
+                        title="Instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter" title="Twitter"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-12">
+                    <hr class="light-100">
+                    <h5>&copy; vitorportfolio.netlify.app</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Sources -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

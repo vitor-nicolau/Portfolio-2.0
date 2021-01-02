@@ -1,0 +1,18 @@
+html {
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+// Section Padding
+.padding {
+    padding-bottom: 2rem;
+}
+
+// Bootstrap Padding Fix
+[class*="col-"] {
+    padding: 1rem;
+}

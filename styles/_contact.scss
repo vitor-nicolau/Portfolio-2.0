@@ -1,0 +1,47 @@
+#contact {
+    h1 {
+        margin: 3rem 0;
+    }
+}
+
+.social {
+    a {
+        font-size: 4.5em;
+        padding: 3rem;
+    }
+}
+
+.fa {
+    &-github {
+        color: #222;
+    }
+
+    &-instagram {
+        color: transparent;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+
+    &-twitter {
+        color: #00aced;
+    }
+
+    &-at {
+        color: #fb4636;
+    }
+
+    &-github:hover,
+    &-instagram:hover,
+    &-twitter:hover,
+    &-at:hover {
+        opacity: 0.7;
+        transform: scale(1.2);
+    }
+}
+
+footer {
+    color: #222;
+    padding-top: 2rem;
+}
