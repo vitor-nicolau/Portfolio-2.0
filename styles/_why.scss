@@ -1,0 +1,58 @@
+.why-section {
+    padding-bottom: 7rem;
+
+    hr {
+        margin-bottom: 3rem;
+    }
+}
+
+.about-hr {
+    width: 60%;
+    border: 1px solid #222;
+    margin-bottom: 4rem !important;
+}
+
+.text-area-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 6rem;
+
+    h2 {
+        margin-bottom: 2rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+.text-area-2 {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 6rem;
+
+    h2 {
+        margin-bottom: 2rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    ul {
+        font-size: 1.2rem;
+    }
+
+    .fa-arrow-right {
+        margin-right: 1rem;
+        color: #048edf;
+    }
+}
+
+.image-fluid {
+    width: 76%;
+    border-radius: 15px;
+}
