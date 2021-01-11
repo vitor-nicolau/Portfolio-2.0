@@ -114,8 +114,8 @@ body {
 
 .about-section .link-icons .fa-instagram {
   color: transparent;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
   background-clip: text;
   -webkit-background-clip: text;
 }
@@ -201,18 +201,12 @@ body {
   border-radius: 15px;
 }
 
-#portfolio {
-  background-color: #222;
-}
-
 #portfolio h1 {
-  color: #fff;
   margin-top: 5rem;
 }
 
 .card {
   border-radius: 1rem;
-  border: 1px solid #222;
 }
 
 .card-section {
@@ -368,6 +362,9 @@ footer {
   #contact h1 {
     font-size: 2.5rem;
     margin: 2rem 0;
+  }
+  footer h5 {
+    font-size: 1rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

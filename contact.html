@@ -63,91 +63,60 @@
         </div>
     </nav>
 
-    <!-- Header -->
-    <div class="text-center header">
-        <h1 class="display-4 header-title">Hi, I'm Vitor.</h1>
-        <p class="lead header-p"><em>Freelance Front-End Web Developer</em></p>
+    <!-- Contact Section -->
+    <div id="contact" class="container-fluid text-center">
+        <div class="row padding">
+            <div class="col-12">
+                <h1 class="display-4">Contact Me</h1>
+            </div>
+        </div>
     </div>
 
-    <!-- Portfolio Section -->
-    <div id="portfolio">
-        <div class="container-fluid padding">
-            <div class="row section text-center">
-                <div class="col-12">
-                    <h1 class="display-4">Some Of My Projects</h1>
-                </div>
-                <hr class="my-4 projects-hr" />
-            </div>
-        </div>
-        <div class="container-fluid padding">
-            <div class="row padding card-section">
-                <div class="col-md-4 whole-card">
-                    <div class="card">
-                        <img src="images/squeakyclean.jpg" alt="freelancer website" class="card-img-top" />
-                        <div class="card-body">
-                            <h4 class="card-title">Squeaky Clean (Mockup)</h4>
-                            <p class="card-text">HTML5</p>
-                            <p class="card-text">CSS3 / SASS</p>
-                            <p class="card-text">Bootstrap</p>
-                            <a href="https://squeakyclean.netlify.app/" target="_blank"
-                                class="btn btn-outline-secondary">Live View</a>
-                        </div>
+    <!-- Contact Form -->
+    <div class="container-fluid padding form-section">
+        <form id="contact-form" action="https://app.99inbound.com/api/e/t3RkAdav" method="POST" target="_blank">
+            <div class="row">
+                <div class="col-md-3 ml-auto">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="firstName" class="form-control" id="firstName"
+                            placeholder="Your First Name" required />
                     </div>
                 </div>
-                <div class="col-md-4 whole-card">
-                    <div class="card">
-                        <img src="images/bestinstincts.jpg" alt="website" class="card-img-top" />
-                        <div class="card-body">
-                            <h4 class="card-title">Best Instincts</h4>
-                            <p class="card-text">HTML5</p>
-                            <p class="card-text">CSS3</p>
-                            <p class="card-text">Bootstrap</p>
-                            <a href="https://clientwebsite-bi.netlify.app/" target="_blank"
-                                class="btn btn-outline-secondary">Live View</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 whole-card">
-                    <div class="card">
-                        <img src="images/tinder4dogs.jpg" alt="freelance web design" class="card-img-top" />
-                        <div class="card-body">
-                            <h4 class="card-title">Tinder 4 Dogs (Mockup)</h4>
-                            <p class="card-text">HTML5</p>
-                            <p class="card-text">CSS3</p>
-                            <p class="card-text">Bootstrap</p>
-                            <a href="https://tinder4dogs.netlify.app/" target="_blank"
-                                class="btn btn-outline-secondary">Live View</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 whole-card">
-                    <div class="card">
-                        <img src="images/newsletter.jpg" alt="website" class="card-img-top" />
-                        <div class="card-body">
-                            <h4 class="card-title">Newsletter</h4>
-                            <p class="card-text">HTML5</p>
-                            <p class="card-text">Node.js</p>
-                            <p class="card-text">Express.js</p>
-                            <a href="https://fast-lowlands-30021.herokuapp.com/" target="_blank"
-                                class="btn btn-outline-secondary">Live View</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 whole-card">
-                    <div class="card">
-                        <img src="images/dicegame.jpg" alt="web design" class="card-img-top" />
-                        <div class="card-body">
-                            <h4 class="card-title">Dice Game</h4>
-                            <p class="card-text">HTML5</p>
-                            <p class="card-text">CSS3</p>
-                            <p class="card-text">JavaScript</p>
-                            <a href="https://dicevsdice.netlify.app/" target="_blank"
-                                class="btn btn-outline-secondary">Live View</a>
-                        </div>
+                <div class="col-md-3 mr-auto">
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastName" class="form-control" id="lastName"
+                            placeholder="Your Last Name" required />
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" class="form-control" id="email"
+                            placeholder="Your Email Address" required />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" class="form-control" id="message" cols="30" rows="10"
+                            placeholder="Your Message"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-lg btn-success">Submit</button>
+            </div>
+            <div style="position: absolute; left: -5000px">
+                <input type="checkbox" name="soft_forest_green_argyle_pinboard" value="1" tabindex="-1"
+                    autocomplete="no" />
+            </div>
+        </form>
     </div>
 
     <div class="container-fluid padding">
