@@ -24,8 +24,8 @@
         -webkit-background-clip: text;
     }
 
-    &-twitter {
-        color: #00aced;
+    &-linkedin {
+        color: #0072b1;
     }
 
     &-at {
@@ -34,7 +34,7 @@
 
     &-github:hover,
     &-instagram:hover,
-    &-twitter:hover,
+    &-linkedin:hover,
     &-at:hover {
         opacity: 0.7;
         transform: scale(1.2);

@@ -124,8 +124,8 @@ body {
   color: #222;
 }
 
-.about-section .link-icons .fa-twitter {
-  color: #00aced;
+.about-section .link-icons .fa-linkedin {
+  color: #0072b1;
 }
 
 .why-section {
@@ -278,15 +278,15 @@ body {
   -webkit-background-clip: text;
 }
 
-.fa-twitter {
-  color: #00aced;
+.fa-linkedin {
+  color: #0072b1;
 }
 
 .fa-at {
   color: #fb4636;
 }
 
-.fa-github:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-at:hover {
+.fa-github:hover, .fa-instagram:hover, .fa-linkedin:hover, .fa-at:hover {
   opacity: 0.7;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
