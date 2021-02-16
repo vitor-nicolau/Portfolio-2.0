@@ -1,47 +1,62 @@
 #contact {
-    h1 {
-        margin: 3rem 0;
-    }
+  h1 {
+    margin: 3rem 0;
+  }
 }
 
 .social {
-    a {
-        font-size: 4.5em;
-        padding: 3rem;
-    }
+  a {
+    font-size: 4.5em;
+    padding: 3rem;
+  }
 }
 
 .fa {
-    &-github {
-        color: #222;
-    }
+  &-github {
+    color: #222;
+  }
 
-    &-instagram {
-        color: transparent;
-        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-        background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-        background-clip: text;
-        -webkit-background-clip: text;
-    }
+  &-instagram {
+    color: transparent;
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    background: -webkit-radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
 
-    &-linkedin {
-        color: #0072b1;
-    }
+  &-linkedin {
+    color: #0072b1;
+  }
 
-    &-at {
-        color: #fb4636;
-    }
+  &-at {
+    color: #fb4636;
+  }
 
-    &-github:hover,
-    &-instagram:hover,
-    &-linkedin:hover,
-    &-at:hover {
-        opacity: 0.7;
-        transform: scale(1.2);
-    }
+  &-github:hover,
+  &-twitter:hover,
+  &-instagram:hover,
+  &-linkedin:hover,
+  &-at:hover {
+    opacity: 0.7;
+    transform: scale(1.2);
+  }
 }
 
 footer {
-    color: #222;
-    padding-top: 2rem;
+  color: #222;
+  padding-top: 2rem;
 }
