@@ -12,8 +12,27 @@
     }
 
     &-p {
-        font-size: 2rem;
+        font-size: 2.2rem;
+        margin: 1.5rem 0;
         color: #048edf;
+    }
+
+    &-btn {
+        color: #fff;
+        font-weight: 500;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        text-shadow: 0 2px 2px #222;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 50px;
+        background: linear-gradient(90deg, #048edf, #00e1ff);
+        transition: 200ms ease-in-out;
+
+        &:hover {
+            transform: scale(1.1);
+            transition: 200ms ease-in-out;
+        }
     }
 }
 

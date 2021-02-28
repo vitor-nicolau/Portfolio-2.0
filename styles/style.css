@@ -41,8 +41,31 @@ body {
 }
 
 .header-p {
-  font-size: 2rem;
+  font-size: 2.2rem;
+  margin: 1.5rem 0;
   color: #048edf;
+}
+
+.header-btn {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-shadow: 0 2px 2px #222;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 50px;
+  background: -webkit-gradient(linear, left top, right top, from(#048edf), to(#00e1ff));
+  background: linear-gradient(90deg, #048edf, #00e1ff);
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+}
+
+.header-btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
 }
 
 .navbar {
@@ -272,8 +295,8 @@ body {
 
 .fa-instagram {
   color: transparent;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
   background-clip: text;
   -webkit-background-clip: text;
 }
@@ -286,7 +309,7 @@ body {
   color: #fb4636;
 }
 
-.fa-github:hover, .fa-instagram:hover, .fa-linkedin:hover, .fa-at:hover {
+.fa-github:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-linkedin:hover, .fa-at:hover {
   opacity: 0.7;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
