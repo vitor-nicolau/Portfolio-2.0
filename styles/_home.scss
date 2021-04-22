@@ -1,58 +1,58 @@
 .header {
-    background: linear-gradient(180deg, #222, #444);
+  background: linear-gradient(180deg, #222, #444);
+  color: #fff;
+  height: 93vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &-title {
+    font-size: 5rem;
+  }
+
+  &-p {
+    font-size: 2.2rem;
+    margin: 1.5rem 0;
+    color: #048edf;
+  }
+
+  &-btn {
     color: #fff;
-    height: 93vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-shadow: 0 2px 2px #222;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #048edf, #00e1ff);
+    transition: 200ms ease-in-out;
 
-    &-title {
-        font-size: 5rem;
+    &:hover {
+      transform: scale(1.1);
+      transition: 200ms ease-in-out;
     }
-
-    &-p {
-        font-size: 2.2rem;
-        margin: 1.5rem 0;
-        color: #048edf;
-    }
-
-    &-btn {
-        color: #fff;
-        font-weight: 500;
-        font-size: 1.5rem;
-        text-transform: uppercase;
-        text-shadow: 0 2px 2px #222;
-        padding: 10px 30px;
-        border: none;
-        border-radius: 50px;
-        background: linear-gradient(90deg, #048edf, #00e1ff);
-        transition: 200ms ease-in-out;
-
-        &:hover {
-            transform: scale(1.1);
-            transition: 200ms ease-in-out;
-        }
-    }
+  }
 }
 
 .navbar {
-    background-color: #222 !important;
+  background-color: #222 !important;
 
-    &-brand {
-        font-size: 1.7rem;
+  &-brand {
+    font-size: 1.7rem;
+  }
+
+  .nav-link {
+    color: #fff !important;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-right: 2rem;
+    transition: 200ms ease-in-out;
+
+    &:hover {
+      color: #048edf !important;
+      transition: 200ms ease-in-out;
     }
-
-    .nav-link {
-        color: #fff !important;
-        font-size: 1.2rem;
-        font-weight: 400;
-        margin-right: 2rem;
-        transition: 200ms ease-in-out;
-
-        &:hover {
-            color: #048edf !important;
-            transition: 200ms ease-in-out;
-        }
-    }
+  }
 }
